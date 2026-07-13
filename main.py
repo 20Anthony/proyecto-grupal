@@ -22,3 +22,6 @@ class Cliente:
 if __name__ == "__main__":
     prod = Producto("Laptop", 1200, 5)
     print(prod.mostrar_detalle())
+
+    cliente = Cliente("Erick Basurto", "C001", "erick@email.com")
+    print(cliente.obtener_datos())
