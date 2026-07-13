@@ -14,6 +14,9 @@ class Cliente:
         self.id_cliente = id_cliente
         self.correo = correo
 
+    def obtener_datos(self):
+        return f"Cliente: {self.nombre} | ID: {self.id_cliente} | Email: {self.correo}"
+
 
 # Pruebas unitarias basicas
 if __name__ == "__main__":
